@@ -3,6 +3,7 @@ uber-kie
 
 PoC of aggregating the different kie repositories behind a single one.
 The provided pom is meant to coordinate the build of each of them.
+For this PoC, I have linked personal and outdated main branches of forked repository, to avoid any possible clash and interaction with official ones
 
 git subtree
 ===========

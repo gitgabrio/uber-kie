@@ -27,6 +27,9 @@ git subtree add --prefix {local directory being pulled into} {remote repo URL} {
 git subtree pull --prefix {local directory being pulled into} {remote repo URL} {remote branch} --squash
 ```
 
+NOTES: 
+git subtree commands can not be invoked with uncommited status of the repository.
+
 Further readings:
 
 1. [Introduction](https://www.atlassian.com/git/tutorials/git-subtree)
